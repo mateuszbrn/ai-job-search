@@ -8,14 +8,14 @@ framework_version: 1.1.1
 <!-- After running /setup, all sections will be filled with your actual information -->
 
 ## Identity
-- **Name:** Mateusz Boroń
-- **Location:** Kraków, Polska
-- **Phone:** +48 732 130 563
-- **Email:** mateusztboron@gmail.com
-- **LinkedIn:** (not provided)
-- **GitHub:** (not provided)
-- **Status:** Employed, actively seeking new opportunities
-- **Constraints:** Prefers hybrid/stationary in Kraków; open to relocating/working remotely for other countries only if compensation reaches 20,000+ PLN net equivalent
+- **Name:** [YOUR_NAME]
+- **Location:** [YOUR_ADDRESS]
+- **Phone:** [YOUR_PHONE]
+- **Email:** [YOUR_EMAIL]
+- **LinkedIn:** [YOUR_LINKEDIN_URL]
+- **GitHub:** [YOUR_GITHUB_URL]
+- **Status:** [YOUR_EMPLOYMENT_STATUS]
+- **Constraints:** [YOUR_COMMUTE_OR_LOCATION_CONSTRAINTS]
 
 ### Languages
 <!-- Every language you can work in professionally, with your honest level. Used by the
@@ -25,68 +25,49 @@ a hard no, not a gap to smooth over. -->
 
 | Language | Level | Notes |
 |----------|-------|-------|
-| Polish | Native | |
-| English | Fluent | |
-| French | Basic (beginner) | Not professional working proficiency |
-| Japanese | Basic (beginner) | Not professional working proficiency |
+| [LANGUAGE] | [LEVEL, e.g. "Native" / "C2" / "B1/B2 (conversational)"] | [optional] |
 
 ## Education
 
-<!-- Studied but did not complete. Candidate has asked that this NOT appear in generated
-CVs/cover letters - kept here only for internal record and honest interview answers. -->
-| Degree | Period | Institution | Key Topics | Notes |
-|--------|--------|-------------|------------|-------|
-| Electrical Engineering and Automation (not completed, no degree) | approx. 2021-2024 (3 years) | Politechnika Krakowska (Cracow University of Technology) | Electrical engineering, automation | **Exclude from CV/cover letters per candidate's instruction** |
+| Degree | Period | Institution | Key Topics |
+|--------|--------|-------------|------------|
+| [DEGREE] | [YEARS] | [INSTITUTION] | [TOPICS] |
 
 ## Professional Experience
 
-### Fund Expense Administration Associate - State Street (August 2024 - Present)
-Kraków, Poland (hybrid)
-- Client-facing communication on fund expense matters
-- Prepares and reports monthly TNA (Total Net Assets) figures for client funds
-- Calculates management fees (mgmt fee) across multiple funds
-- Works daily with MyStateStreet, eHorizon, and other internal fund administration systems
-- Heavy use of Excel for reporting and analysis
-- Identifies and implements process improvements; builds Excel and Python macros to automate recurring manual tasks
-
-### Seasonal / summer roles (exact dates not recorded) - various employers (pre-2024)
-Poland
-- Market stall work (seasonal)
-- **Freego Market:** database handling, logistics, goods ordering
+### [JOB_TITLE] - [COMPANY] ([START] - [END])
+[LOCATION]
+- [RESPONSIBILITY_OR_ACHIEVEMENT_1]
+- [RESPONSIBILITY_OR_ACHIEVEMENT_2]
+- [RESPONSIBILITY_OR_ACHIEVEMENT_3]
 
 <!-- Add more roles as needed -->
 
 ## Independent Projects
 <!-- Projects outside of employment: freelance, open source, personal -->
-- **Personal website development:** Built websites independently (HTML/CSS), self-taught, without AI assistance
-- **Day trading (NQ futures):** Self-directed study and practice of day trading, ongoing interest in financial markets
+- **[PROJECT_NAME]**: [DESCRIPTION]
 
 ## Technical Skills
 
 ### Programming & ML
-- **Python** (self-taught, basic/intermediate): scripting, automation/macros
-- **C++, C, JavaScript, MATLAB** (self-taught, basic)
-- **HTML/CSS** (self-taught, used for independent web projects)
-- No SQL yet - in progress (see Certifications/learning plan in CLAUDE.md and `upskill/learning-plan-2026-09-01.md`)
+- **[LANGUAGE]** ([PROFICIENCY]): [FRAMEWORKS_AND_LIBRARIES]
+- [OTHER_SKILLS]
 
 ### Domain Expertise
-- Fund administration / fund expense operations (TNA reporting, management fee calculation)
-- Financial markets (self-directed interest; day trading NQ futures)
-- Process automation (Excel VBA + Python macros)
+- [DOMAIN_1]
+- [DOMAIN_2]
 
 ### Software & Tools
-- Excel (full package: formulas, pivot tables, macros/VBA)
-- MyStateStreet, eHorizon (internal State Street systems)
-- Hobbyist use of general AI tools
+- [TOOL_LIST]
 
 ## Publications
 <!-- List peer-reviewed publications, if any -->
-None.
+1. [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL]. [DOI_LINK]
 
 ## Awards
-None.
+- [AWARD] - [EVENT] ([YEAR])
 
 ## References
-None provided yet.
+- [NAME], [TITLE], [COMPANY] ([EMAIL], [PHONE])
 
 More references available upon request.
