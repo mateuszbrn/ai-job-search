@@ -13,10 +13,10 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 ## Search Sites
 
 Primary (your market's job boards - scaffold one with `/add-portal`):
-- **pracuj.pl** - Poland's largest general job board (no CLI yet - run `/add-portal` to scaffold one; used as a WebSearch `site:` fallback until then)
-- **linkedin.com/jobs** - LinkedIn job listings (filter: Poland / Kraków); also covered by `linkedin-search` CLI
-- **nofluffjobs.com** - niche board for tech/IT roles (optional; also candidate for `/add-portal`)
-- **justjoin.it** - another major Polish tech job board (optional; also candidate for `/add-portal`)
+- **[YOUR_JOB_BOARD]** - your market's largest general job board
+- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
+- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
+- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
 
 Secondary (company career pages via Google):
 - Direct Google searches with `site:` filters for known target companies
@@ -27,61 +27,54 @@ Queries are grouped by priority. Write **each category in every language from yo
 
 **Organize by function, not job title.** The same underlying work carries different titles across companies and markets (a "Data Scientist" role at one employer may be posted as "Insights Analyst" or "Data Consultant" at another). Name each priority category after the function it covers, and list several plausible job titles as query variants within that category rather than betting an entire priority tier on one exact title string.
 
-### Priority 1: Fund Administration / Financial Operations
+### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
 
-These match your strongest and most desired career direction (current role type).
-
-```
-site:pracuj.pl "Fund Accountant" Kraków
-site:pracuj.pl "Fund Administrator" Kraków
-site:pracuj.pl "Financial Operations Analyst" Kraków
-site:pracuj.pl "Fund Expense Analyst" Kraków
-site:linkedin.com/jobs "Fund Accountant" Poland
-site:linkedin.com/jobs "Fund Administrator" Poland
-```
-
-### Priority 2: Data / Reporting / Process Automation
-
-Adjacent to your current work - built on Excel/VBA/Python automation experience.
+These match your strongest and most desired career direction.
 
 ```
-site:pracuj.pl "Data Analyst" Kraków
-site:pracuj.pl "Reporting Analyst" Kraków
-site:pracuj.pl "Process Automation Analyst" Kraków
-site:pracuj.pl "Junior Business Analyst" Kraków
-site:linkedin.com/jobs "Data Analyst" Poland Excel VBA
+site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_CITY]
+site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_2]" [YOUR_CITY]
+site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
+site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_COUNTRY]
 ```
 
-### Priority 3: AI / Automation (pivot direction)
+### Priority 2: [YOUR_DOMAIN_EXPERTISE]
 
-Roles to grow into as the current AI/automation learning plan progresses.
-
-```
-site:nofluffjobs.com "AI Implementation" Kraków
-site:justjoin.it "Junior AI" OR "Automation Engineer" Kraków
-site:linkedin.com/jobs "Prompt Engineer" Poland
-site:linkedin.com/jobs "Junior Machine Learning Engineer" Poland
-```
-
-### Priority 4: Broader Technology (wide net)
-
-Entry-level technology roles - candidate is willing to learn on the job.
+These match your domain expertise.
 
 ```
-site:nofluffjobs.com "IT Support Specialist" Kraków
-site:justjoin.it "Junior Software Developer" Kraków
-site:linkedin.com/jobs "Graduate Programme" technology Poland
+site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
+site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
+site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
 ```
 
-**Key skill search terms (combine with the above as needed):** Excel, VBA, Python, fund accounting, process automation, AI
+### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+
+Adjacent roles you could pivot into.
+
+```
+site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
+site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
+```
+
+### Priority 4: Broader Technical / Consulting
+
+Wider net for general technical roles.
+
+```
+site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
+site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
+site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+```
 
 ## Location Filter
 
-When evaluating results, verify the job location matches the candidate's constraints:
-- **Kraków and surrounding areas** - hybrid or fully on-site, always acceptable
-- **Anywhere in Poland** - acceptable if remote
-- **Anywhere worldwide** - acceptable only if remote or willing to relocate, AND compensation reaches 20,000+ PLN net equivalent
-- No borderline/too-far commute tiers apply (no daily-commute-from-home constraint stated)
+When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
+- [YOUR_CITY] and surrounding areas
+- [ACCEPTABLE_AREA_1]
+- [ACCEPTABLE_AREA_2]
+- [BORDERLINE_AREA] (borderline - ~X min by transit)
+- [TOO_FAR_AREA] (too far)
 
 ## Language Filter
 
