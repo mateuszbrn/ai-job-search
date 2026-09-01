@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Mateusz Boroń
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Mateusz Boroń, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,76 +16,100 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Mateusz Boroń
+- **Location:** Kraków, Polska (hybrid/stationary in Kraków, or fully remote worldwide for roles paying 20 000+ PLN net equivalent)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
+  | Polish | Native |
+  | English | Fluent |
+  | French | Basic (beginner) |
+  | Japanese | Basic (beginner) |
   <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
   working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
   undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
   lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
   04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **CV language:** English <!-- English unless your market expects otherwise; /setup asks -->
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Employed, actively seeking new opportunities
+- **LinkedIn headline:** (not provided)
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+<!-- Studied but did not complete a degree. Candidate has asked that this NOT appear in the
+CV or cover letters - keep it out of generated documents, but it stays here for the record
+(e.g. if asked directly in an interview). -->
+- **Electrical Engineering and Automation (Elektrotechnika i Automatyka)** (approx. 2021-2024, 3 years, not completed) - Politechnika Krakowska (Cracow University of Technology)
+  - No degree awarded; left before completion
+  - **Do not include in CV or cover letters per candidate's instruction.**
 
 ### Professional Experience
 <!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Fund Expense Administration Associate** (August 2024 - Present) - **State Street** (Kraków, Poland - hybrid)
+  - Client-facing communication on fund expense matters
+  - Prepares and reports monthly TNA (Total Net Assets) figures for client funds
+  - Calculates management fees (mgmt fee) for multiple funds
+  - Works daily with MyStateStreet, eHorizon, and other internal fund administration systems
+  - Heavy use of Excel for reporting and analysis
+  - Identifies and implements process improvements; builds Excel and Python macros to automate recurring tasks
+- **Seasonal / summer roles (pre-2024, exact dates not recorded)** - various employers, Poland
+  - Market stall work (seasonal)
+  - **Freego Market** - database handling, logistics, goods ordering
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Advanced Excel (formulas, pivot tables, macros/VBA), fund expense administration, financial reporting (TNA, management fee calculation)
+- **Secondary:** Python (self-taught, incl. automation scripting), C++, C, JavaScript, MATLAB, HTML, CSS
+- **Domain:** Fund administration / fund accounting operations, financial markets (self-directed interest, incl. NQ futures day trading), process automation
+- **Software:** MyStateStreet, eHorizon, Excel VBA macros, Python automation scripts; hobbyist use of AI tools (not SQL - currently learning)
 
 ### Certifications
 <!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+(None completed yet - see the in-progress learning plan below and `upskill/learning-plan-2026-09-01.md`.)
+
+**In progress (started 2026-09-01, target completion 2026-09-15, ~6h/day):**
+- SQL for Data Science (Coursera, UC Davis)
+- Python for Data Science, AI & Development (IBM, Coursera)
+- Learn Git & GitHub (Codecademy)
+- ChatGPT Prompt Engineering for Developers (DeepLearning.AI)
+- Introduction to Generative AI + Introduction to Large Language Models (Google Cloud Skills Boost)
+- Anthropic Academy - prompt engineering / Claude Code introduction
+- Power BI Fundamentals (Microsoft Learn)
+- Machine Learning Crash Course (Google)
+- RPA Foundations (UiPath Academy)
+- Building Systems with the ChatGPT API (DeepLearning.AI)
+
+**Do not list any of the above as "completed" in a CV or cover letter until actually finished.** Once a course is done, move it here with a real completion date and it becomes eligible for CV use.
 
 ### Publications
 <!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+None.
 
 ### Awards
 <!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+None.
 
 ### Behavioral Profile
 <!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Flexible on environment** - comfortable in most work settings, prefers working from home when possible
+- **Fast decision-maker** - decides quickly rather than deliberating at length
+- **Strengths:** Concise, direct communication; process automation instinct (builds Excel/Python macros to remove manual work); adaptable to different team roles
+- **Growth areas:** Prefers environments with clear communication and alignment - friction or poor communication in a team is his biggest energy drain
+- **Thrives in:** Remote-friendly or flexible settings; roles with room to eventually manage people; teams with clear, direct communication
 
 ### What Excites You
 <!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Personal and professional growth
+- Building and creating new things (incl. automating processes, learning new technical skills)
 
 ### Target Sectors
 <!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Financial services / banking: State Street and similar institutions (fund administration, financial operations)
+- Technology companies: computer-based technical/analytical roles, open to pivoting into data/automation/AI-adjacent work
 
 ### Deal-breakers
 <!-- Hard constraints on job search. Language requirements are handled separately and
 automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+None stated.
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
